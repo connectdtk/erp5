@@ -19,8 +19,7 @@ document_reference = None
 if default_email_text is not None:
   # Case for recovery of username
   if person_list is None:
-    query_kw = {'email.url_string':{'query':default_email_text, 'key':'ExactMatch'}}
-    result = portal.portal_catalog(portal_type="Email", parent_portal_type="Person", **query_kw)
+    result = portal.portal_catalog(default_email_text=default_email_text, parent_portal_type="Person")
     if len(result) == 0:
       portal_status_message = portal.Base_translateString("Can't find corresponding person, it's not possible to update your credentials.")
       if web_site is not None:
