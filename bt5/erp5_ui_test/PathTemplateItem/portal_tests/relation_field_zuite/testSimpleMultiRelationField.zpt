@@ -86,7 +86,7 @@ to set categories</td></tr>
 <tr>
   <td>verifyValue</td>
   <td>field_my_bar_category_title_list</td>
-  <td>Title 0<br />Title 1<br />Title 1</td>
+  <td>Title 0<br />Title 1</td>
   <td></td>
 </tr>
 <tr>
@@ -104,7 +104,7 @@ to set categories</td></tr>
 <tr>
   <td>verifyValue</td>
   <td>field_my_bar_category_title_list</td>
-  <td>Title 0<br />Title 0<br />Title 1<br />Title 1</td>
+  <td>Title 0<br />Title 0<br />Title 1</td>
   <td></td>
 </tr>
 <tr>
@@ -122,7 +122,7 @@ to set categories</td></tr>
 <tr>
   <td>verifyValue</td>
   <td>field_my_bar_category_title_list</td>
-  <td>Title 1<br />Title 0<br />Title 1</td>
+  <td>Title 1<br />Title 0</td>
   <td></td>
 </tr>
 <!-- XXX don't test jump for now, because we don't have good locators anyway.
